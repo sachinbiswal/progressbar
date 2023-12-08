@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+   display: flex;
+   flex-direction: column;
+   margin: 2% 0 0 20%;
+   gap: 20px;
+
+   button{
+    background-color: rgb(74, 100, 201);
+    width: fit-content;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: medium;
+    border-radius: 6px;
+}
+
+.inputdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    label{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+     input{
+        width: 30%;
+        height: 40px;
+        font-size: medium;
+        padding: 0 0 0 10px;
+        border: 1px solid grey;
+        border-radius:8px ;
+    }
+    input:hover{
+        border: 1px solid blue;
+        /* border-radius:10px ; */
+    }
+   
+}
+}
+
+
+.down{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;   
+  
+    .prices{
+        font-size: larger;
+    }
+}
